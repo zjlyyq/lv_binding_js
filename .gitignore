@@ -21,3 +21,6 @@ CMakeCache.txt
 # NPM
 node_modules/
 src/render/react/index.js
+
+# deps 不考虑
+# deps/
