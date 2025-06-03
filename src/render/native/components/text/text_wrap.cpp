@@ -106,6 +106,7 @@ static JSClassDef ViewClass = {
 };
 
 void NativeComponentTextInit (JSContext* ctx, JSValue ns) {
+    printf("%s\n", "zjlwyl NativeComponentTextInit");
     JS_NewClassID(JS_GetRuntime(ctx), &TextClassID);
     JS_NewClass(JS_GetRuntime(ctx), TextClassID, &ViewClass);
     JSValue proto = JS_NewObject(ctx);
